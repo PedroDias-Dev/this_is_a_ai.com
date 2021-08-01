@@ -18,9 +18,11 @@ CREATOR -- LIGHTBLUE
   font-size: 1em;
   /* display: flex; */
   justify-content: flex-start;
-
+  height: 85vh;
 
   margin:0px;
+  border: 1px solid white;
+  padding: 10px;
 }
 
 .Text{
@@ -71,4 +73,12 @@ input:focus{
 
 .answer{
   display: none;
+}
+
+.main-input{
+  display: flex;
+  align-items: center;
+  height: 30px;
+  border: 1px solid white;
+  margin-top: 20px;
 }
